@@ -182,7 +182,7 @@ def create_resume_pdf(data, output_filename):
 def run_resume_downloader(start_id, end_id):
     api_url_template = "https://ocs.iith.ac.in/portal/api/api/student/publiccv/{id_number}"
     # Session identifier string extracted from active browser storage
-    session_cookie = "Enter you cookie here nga"
+    session_cookie = "s%3AEcr2rZztdfLNXU4u3ZW91NkSXQeZ4C1I.BUqUc703JX7WkuEJCK7Sk2TuPyG%2FGDD4qs%2FjT08OyOM"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Cookie': session_cookie,
@@ -233,4 +233,4 @@ def run_resume_downloader(start_id, end_id):
 
 # Run for your desired range
 if __name__ == "__main__":
-    run_resume_downloader(start_id=2, end_id=1186)
+    run_resume_downloader(start_id=1187, end_id=2000) 
