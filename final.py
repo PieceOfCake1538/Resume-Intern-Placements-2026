@@ -229,8 +229,8 @@ def run_resume_downloader(start_id, end_id):
             print(f"-> SKIPPED: Unexpected error processing ID {i}. Reason: {e}")
             
         # 2 second pause to be polite to the server, regardless of success or failure
-        time.sleep(2.0)
+        time.sleep(0.5)
 
 # Run for your desired range
 if __name__ == "__main__":
-    run_resume_downloader(start_id=1187, end_id=2000) 
+    run_resume_downloader(start_id=2401, end_id=3000) 
